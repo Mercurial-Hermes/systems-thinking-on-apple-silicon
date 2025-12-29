@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+
+  "curriculum": {
+    "id": "systems-thinking-on-apple-silicon",
+    "title": "Systems Thinking on Apple Silicon",
+    "description": "A long-form apprenticeship curriculum focused on durable systems understanding through direct contact with real machines."
+  },
+
+  "phases": [
+    {
+      "id": "phase-1-observation-structure",
+      "title": "Observation & Structure",
+      "order": 1,
+      "description": "Learning to observe artifacts faithfully and recognise structure without interpretation."
+    },
+    {
+      "id": "phase-2-execution-state",
+      "title": "Execution & State",
+      "order": 2,
+      "description": "Introducing time, state, and irreversibility through disciplined observation of execution."
+    },
+    {
+      "id": "phase-3-processes-communication",
+      "title": "Processes, Files, and Communication",
+      "order": 3,
+      "description": "Understanding systems as coordinated entities that interact through files, processes, and networks."
+    },
+    {
+      "id": "phase-4-memory-concurrency",
+      "title": "Memory & Concurrency",
+      "order": 4,
+      "description": "Reasoning about correctness under pressure from shared state and concurrent execution."
+    },
+    {
+      "id": "phase-5-performance-architecture",
+      "title": "Performance & Architecture",
+      "order": 5,
+      "description": "Measuring reality and understanding architectural constraints."
+    },
+    {
+      "id": "phase-6-specialisation",
+      "title": "Specialisation",
+      "order": 6,
+      "description": "Focused study of GPU programming and graphics systems on Apple Silicon."
+    }
+  ],
+
+  "courses": [
+    {
+      "id": "course-1-hexdump-lite",
+      "title": "Hexdump-Lite",
+      "subtitle": "Seeing Bytes Faithfully",
+      "order": 1,
+      "phase_id": "phase-1-observation-structure",
+      "status": "available",
+      "paid": false,
+      "summary": "Build a minimal hexdump tool to learn how to observe bytes on disk without interpretation.",
+      "path": "courses/course-1-hexdump-lite.md"
+    },
+    {
+      "id": "course-2-binary-shape-format",
+      "title": "Binary Shape and Format",
+      "subtitle": "Declared Structure Without Interpretation",
+      "order": 2,
+      "phase_id": "phase-1-observation-structure",
+      "status": "in-development",
+      "paid": false,
+      "summary": "Study binary formats as contracts, learning to recognise declared structure without narrating meaning.",
+      "path": "courses/course-2-binary-shape.md"
+    },
+    {
+      "id": "course-3-pscope",
+      "title": "pscope",
+      "subtitle": "Observing Execution Without Trust",
+      "order": 3,
+      "phase_id": "phase-2-execution-state",
+      "status": "in-development",
+      "paid": true,
+      "summary": "Introduce execution as an observable physical process using Dipole to inspect live state without interpretation.",
+      "path": "courses/course-3-pscope.md"
+    },
+    {
+      "id": "course-4-debugging-reconciliation",
+      "title": "Debugging as Reconciliation",
+      "subtitle": "Reconciling Intent with Observed State",
+      "order": 4,
+      "phase_id": "phase-2-execution-state",
+      "status": "planned",
+      "paid": true,
+      "summary": "Develop disciplined debugging practices focused on registers, breakpoints, and controlled intervention.",
+      "path": "courses/course-4-debugging.md"
+    },
+    {
+      "id": "course-5-processes-pipes",
+      "title": "Processes, Pipes, and Control",
+      "subtitle": "Coordinating Programs",
+      "order": 5,
+      "phase_id": "phase-3-processes-communication",
+      "status": "planned",
+      "paid": true,
+      "summary": "Study process lifecycles, pipes, file descriptors, and PTYs to understand how programs coordinate.",
+      "path": "courses/course-5-processes.md"
+    },
+    {
+      "id": "course-6-filesystems",
+      "title": "Filesystems as Contracts",
+      "subtitle": "Persistence Across Time",
+      "order": 6,
+      "phase_id": "phase-3-processes-communication",
+      "status": "planned",
+      "paid": true,
+      "summary": "Build a small filesystem to understand persistence, metadata authority, and recovery under failure.",
+      "path": "courses/course-6-filesystems.md"
+    },
+    {
+      "id": "course-7-networking",
+      "title": "Networking as a System Boundary",
+      "subtitle": "Communication Beyond the Local Machine",
+      "order": 7,
+      "phase_id": "phase-3-processes-communication",
+      "status": "planned",
+      "paid": true,
+      "summary": "Explore sockets, protocols, latency, and partial failure through a small networking tool.",
+      "path": "courses/course-7-networking.md"
+    },
+    {
+      "id": "course-8-memory",
+      "title": "Memory Is a System",
+      "subtitle": "Address Spaces and Illusions",
+      "order": 8,
+      "phase_id": "phase-4-memory-concurrency",
+      "status": "planned",
+      "paid": true,
+      "summary": "Interrogate virtual memory, mappings, and protection to understand when abstractions fail.",
+      "path": "courses/course-8-memory.md"
+    },
+    {
+      "id": "course-9-concurrency",
+      "title": "Concurrency and Ordering",
+      "subtitle": "Correctness Under Contention",
+      "order": 9,
+      "phase_id": "phase-4-memory-concurrency",
+      "status": "planned",
+      "paid": true,
+      "summary": "Reason about threads, scheduling, atomicity, and memory models using tracing and visualisation.",
+      "path": "courses/course-9-concurrency.md"
+    },
+    {
+      "id": "course-10-performance",
+      "title": "Measuring Reality",
+      "subtitle": "Performance as Observation",
+      "order": 10,
+      "phase_id": "phase-5-performance-architecture",
+      "status": "planned",
+      "paid": true,
+      "summary": "Build profiling tools to measure real systems behaviour and avoid misleading intuition.",
+      "path": "courses/course-10-performance.md"
+    },
+    {
+      "id": "course-11-architecture",
+      "title": "Apple Silicon Architecture",
+      "subtitle": "Understanding the Machine You Are Standing On",
+      "order": 11,
+      "phase_id": "phase-5-performance-architecture",
+      "status": "planned",
+      "paid": true,
+      "summary": "Study ARM64 execution, caches, pipelines, and speculation as architectural constraints.",
+      "path": "courses/course-11-architecture.md"
+    },
+    {
+      "id": "course-12-gpu",
+      "title": "GPU Programming on Apple Silicon",
+      "subtitle": "Coordinated Parallel Execution",
+      "order": 12,
+      "phase_id": "phase-6-specialisation",
+      "status": "planned",
+      "paid": true,
+      "summary": "Investigate GPU execution and CPU/GPU coordination through Metal compute workloads.",
+      "path": "courses/course-12-gpu.md"
+    },
+    {
+      "id": "course-13-graphics",
+      "title": "Graphics Systems with Metal",
+      "subtitle": "Rendering as a Systems Problem",
+      "order": 13,
+      "phase_id": "phase-6-specialisation",
+      "status": "planned",
+      "paid": true,
+      "summary": "Build a minimal graphics engine to reason about pipelines, resources, and performance honestly.",
+      "path": "courses/course-13-graphics.md"
+    }
+  ]
+}

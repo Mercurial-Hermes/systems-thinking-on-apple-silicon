@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-thinking-on-apple-silicon/schema/curriculum.schema.json",
+  "title": "Systems Thinking on Apple Silicon — Curriculum Schema",
+  "description": "Schema defining the stable, machine-readable structure of the Systems Thinking on Apple Silicon curriculum.",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": ["schema_version", "curriculum", "phases", "courses"],
+
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Version of this schema. Incremented only for breaking changes.",
+      "pattern": "^1\\.0$"
+    },
+
+    "curriculum": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "description"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable identifier for the curriculum."
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+
+    "phases": {
+      "type": "array",
+      "description": "Ordered list of epistemic phases in the curriculum.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "order", "description"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable phase identifier."
+          },
+          "title": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Explicit ordering index for the phase."
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+
+    "courses": {
+      "type": "array",
+      "description": "List of courses in the curriculum.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "order",
+          "phase_id",
+          "status",
+          "paid",
+          "summary",
+          "path"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable course identifier."
+          },
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Explicit ordering index within the curriculum."
+          },
+          "phase_id": {
+            "type": "string",
+            "description": "ID of the phase this course belongs to."
+          },
+          "status": {
+            "type": "string",
+            "enum": ["planned", "in-development", "available"]
+          },
+          "paid": {
+            "type": "boolean",
+            "description": "Whether the course requires payment to access in consumers."
+          },
+          "summary": {
+            "type": "string",
+            "description": "Short, authoritative description suitable for listings."
+          },
+          "path": {
+            "type": "string",
+            "description": "Relative path to the authoritative markdown description."
+          }
+        }
+      }
+    }
+  }
+}
