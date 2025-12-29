@@ -147,26 +147,26 @@
       "path": "courses/course-9-concurrency.md"
     },
     {
-      "id": "course-10-performance",
-      "title": "Measuring Reality",
-      "subtitle": "Performance as Observation",
+      "id": "course-10-architecture",
+      "title": "Apple Silicon Architecture",
+      "subtitle": "Understanding the Machine You Are Standing On",
       "order": 10,
       "phase_id": "phase-5-performance-architecture",
       "status": "planned",
       "paid": true,
-      "summary": "Build profiling tools to measure real systems behaviour and avoid misleading intuition.",
-      "path": "courses/course-10-performance.md"
+      "summary": "Study ARM64 execution, caches, pipelines, and speculation as architectural constraints.",
+      "path": "courses/course-10-architecture.md"
     },
     {
-      "id": "course-11-architecture",
-      "title": "Apple Silicon Architecture",
-      "subtitle": "Understanding the Machine You Are Standing On",
+      "id": "course-11-performance",
+      "title": "Measuring Reality",
+      "subtitle": "Performance as Observation",
       "order": 11,
       "phase_id": "phase-5-performance-architecture",
       "status": "planned",
       "paid": true,
-      "summary": "Study ARM64 execution, caches, pipelines, and speculation as architectural constraints.",
-      "path": "courses/course-11-architecture.md"
+      "summary": "Build profiling tools to measure real systems behaviour and avoid misleading intuition.",
+      "path": "courses/course-11-performance.md"
     },
     {
       "id": "course-12-gpu",
