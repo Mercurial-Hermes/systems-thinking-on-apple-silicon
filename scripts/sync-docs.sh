@@ -55,6 +55,15 @@ sync_remote_markdown \
   "Dipole"
 
 sync_remote_markdown \
+  "https://raw.githubusercontent.com/Mercurial-Hermes/dipole/refs/heads/main/docs/MISSION.md" \
+  "https://github.com/Mercurial-Hermes/dipole" \
+  "site/content/dipole/mission.md" \
+  "Dipole MISSION" \
+  "/dipole/mission/" \
+  "dipole-vision" \
+  "Dipole"
+
+sync_remote_markdown \
   "https://raw.githubusercontent.com/Mercurial-Hermes/systems-thinking-on-apple-silicon/refs/heads/main/README.md" \
   "https://github.com/Mercurial-Hermes/systems-thinking-on-apple-silicon" \
   "site/content/repo/systems_thinking.md" \

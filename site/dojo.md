@@ -4,9 +4,7 @@ title: Dojo Overview
 permalink: /dojo/
 ---
 
-# Dojo
-
-> [Download]({{ "/install-dojo/" | relative_url }})
+# Dojo [Download]({{ "/install-dojo/" | relative_url }})
 
 Dojo is a native macOS application designed to support the *Systems Thinking on Apple Silicon* curriculum.
 

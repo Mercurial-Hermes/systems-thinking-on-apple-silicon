@@ -1,6 +1,6 @@
 ---
 layout: default
-title: **Systems Thinking on Apple Silicon**
+title: Systems Thinking on Apple Silicon
 install_url: /install-dojo/
 ---
 
@@ -33,11 +33,13 @@ We are in the early stages of building a logical, methodical sequence of courses
 For a fuller statement of intent:
 
 - [System Thinking on Apple Silicon]({{ "/systems_thinking/" | relative_url }}){:target="_blank" rel="noopener"}
+
+## Pillars
+
 - [Curriculum]({{ "/curriculum/" | relative_url }}){:target="_blank" rel="noopener"}
+- [Dojo]({{ "/dojo/" | relative_url }})
+- [Dipole]({{ "/dipole/" | relative_url }})
 
-## Sections
-
-- [Curriculum overview]({{ "/curriculum-overview/" | relative_url }})
-- [Dojo overview]({{ "/dojo/" | relative_url }})
-- [Dipole philosophy]({{ "/dipole/" | relative_url }})
-- [Install Dojo (macOS)]({{ page.install_url | relative_url }})
+## Install
+ 
+- [Dojo (macOS)]({{ page.install_url | relative_url }})

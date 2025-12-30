@@ -22,6 +22,11 @@ header {
   margin-bottom: 2rem;
 }
 
+header > div {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
 nav a {
   margin-right: 1rem;
 }
