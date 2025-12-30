@@ -15,3 +15,4 @@ The curriculum treats Dipole as an instrument under construction, used to observ
 - Preface: `/PREFACE.md`
 - Course 3 (pscope): `/courses/course-3-pscope.md`
 - Dipole repository: https://github.com/Mercurial-Hermes/dipole
+- Dipole VISION: {{ "/dipole/vision/" | relative_url }}
