@@ -20,6 +20,7 @@ cat > "$OUTPUT_FILE" <<EOF_HEADER
 layout: default
 title: Dipole VISION
 permalink: /dipole/vision/
+body_class: dipole-vision
 ---
 
 **Provenance**

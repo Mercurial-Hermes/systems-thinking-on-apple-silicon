@@ -10,9 +10,4 @@ It exposes them.
 
 The curriculum treats Dipole as an instrument under construction, used to observe execution with restraint and precision.
 
-## Canonical References
-
-- Preface: `/PREFACE.md`
-- Course 3 (pscope): `/courses/course-3-pscope.md`
-- Dipole repository: https://github.com/Mercurial-Hermes/dipole
-- Dipole VISION: {{ "/dipole/vision/" | relative_url }}
+- [VISION]({{ "/dipole/vision/" | relative_url }}){:target="_blank" rel="noopener"}
