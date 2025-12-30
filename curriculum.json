@@ -189,6 +189,17 @@
       "paid": true,
       "summary": "Build a minimal graphics engine to reason about pipelines, resources, and performance honestly.",
       "path": "courses/course-13-graphics.md"
+    },
+    {
+      "id": "course-14-driver-tracing",
+      "title": "Tracing at the Boundary",
+      "subtitle": "Driver-Backed Observation",
+      "order": 14,
+      "phase_id": "phase-6-specialisation",
+      "status": "planned",
+      "paid": true,
+      "summary": "Build a driver-backed tracing system with a shared-memory ring buffer to study observation, loss, and contracts across privilege boundaries.",
+      "path": "courses/course-14-driver-tracing.md"
     }
   ]
 }
