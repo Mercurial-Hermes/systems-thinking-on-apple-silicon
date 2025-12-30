@@ -1,4 +1,4 @@
-name: Sync Dipole docs
+name: Sync docs
 
 on:
   workflow_dispatch:
@@ -12,15 +12,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Sync VISION.md
-        run: ./scripts/sync-dipole-docs.sh
+      - name: Sync docs
+        run: ./scripts/sync-docs.sh
       - name: Commit changes
         run: |
           if git status --porcelain | grep -q .; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add site/content/dipole/vision.md
-            git commit -m "Sync Dipole VISION.md"
+            git add site/content
+            git commit -m "Sync docs"
             git push
           else
             echo "No changes to commit."

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Curriculum Overview
-permalink: /curriculum/
+permalink: /curriculum-overview/
 ---
 
 The curriculum is defined as a stable, machine-readable index and a set of authoritative course descriptions.
