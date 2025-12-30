@@ -1,3 +1,5 @@
 .zig-cache/
 zig-out/
 *.o
+CHATGPT_CONTEXT.md
+AGENTS.md
