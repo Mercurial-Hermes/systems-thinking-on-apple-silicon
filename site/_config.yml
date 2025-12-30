@@ -1,0 +1,8 @@
+title: Systems Thinking on Apple Silicon
+url: "" # Set in production, e.g. https://example.com
+baseurl: "" # Set in production if served from a subpath
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: pretty

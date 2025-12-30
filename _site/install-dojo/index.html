@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Install Dojo (macOS) | Systems Thinking on Apple Silicon</title>
+    <style>
+      :root { color-scheme: light; }
+      body { margin: 2rem auto; max-width: 68ch; font-family: Georgia, "Times New Roman", serif; line-height: 1.6; padding: 0 1rem; color: #111; background: #fff; }
+      header { margin-bottom: 2rem; }
+      nav a { margin-right: 1rem; }
+      main h1 { margin-top: 0; }
+      footer { margin-top: 3rem; font-size: 0.9rem; color: #555; }
+      code, pre { font-family: "Courier New", Courier, monospace; }
+      pre { padding: 0.75rem; background: #f5f5f5; overflow-x: auto; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>Systems Thinking on Apple Silicon</div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/curriculum/">Curriculum</a>
+        <a href="/dojo/">Dojo</a>
+        <a href="/dipole/">Dipole</a>
+        <a href="/install-dojo/">Install</a>
+      </nav>
+    </header>
+    <main>
+      <p>This page covers installation of the Dojo macOS package when a signed <code class="language-plaintext highlighter-rouge">.pkg</code> is provided.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li>macOS on Apple Silicon</li>
+  <li>A downloaded, signed Dojo <code class="language-plaintext highlighter-rouge">.pkg</code> from the official distribution channel</li>
+</ul>
+
+<h2 id="install-gui">Install (GUI)</h2>
+
+<ol>
+  <li>Double-click the <code class="language-plaintext highlighter-rouge">.pkg</code> file.</li>
+  <li>Follow the macOS Installer steps.</li>
+  <li>Launch Dojo from <code class="language-plaintext highlighter-rouge">/Applications</code>.</li>
+</ol>
+
+<h2 id="install-terminal">Install (Terminal)</h2>
+
+<p>Use the system installer with an absolute path to the package:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>installer <span class="nt">-pkg</span> /path/to/Dojo.pkg <span class="nt">-target</span> /
+</code></pre></div></div>
+
+<h2 id="verification">Verification</h2>
+
+<p>When a published checksum or signature is provided with a release, verify it before installation.</p>
+
+    </main>
+    <footer>
+      <div>Repository: <a href="https://github.com/Mercurial-Hermes/systems-thinking-on-apple-silicon">Mercurial-Hermes/systems-thinking-on-apple-silicon</a></div>
+    </footer>
+  </body>
+</html>

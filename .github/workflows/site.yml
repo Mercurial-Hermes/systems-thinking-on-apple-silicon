@@ -1,0 +1,21 @@
+name: Build Jekyll site
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+      - name: Install GitHub Pages dependencies
+        run: gem install github-pages
+      - name: Build site
+        run: jekyll build --source site --destination _site
