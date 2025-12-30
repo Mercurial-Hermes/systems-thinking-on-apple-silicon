@@ -7,7 +7,7 @@ install_url: /install-dojo/
 This site is the public entry point for the **Systems Thinking on Apple Silicon** *curriculum* and its *companion tools*.
 It provides stable documentation, orientation, and distribution links.
 
-## Who is this for
+## Who is this for?
 
 We are developing a *community*, an *ecosystem*, a *distributed network of local nodes*.
 
@@ -28,7 +28,7 @@ You can join a community of like-minded individuals interested in this space.
 
 Long term goals are tooling for GPU programming and leveraging the Metal API.
 
-We are in the early stages of building a logical, methodical sequence of courses to enable systems programmers for this target.
+We are in the early stages of methodically building a logical sequence of courses to enable systems programmers for this target.
 
 For a fuller statement of intent:
 

@@ -27,6 +27,11 @@ header > div {
   font-weight: 700;
 }
 
+.download-link a {
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
 nav a {
   margin-right: 1rem;
 }
