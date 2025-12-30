@@ -43,3 +43,13 @@ For a fuller statement of intent:
 ## Install
  
 - [Dojo (macOS)]({{ page.install_url | relative_url }})
+
+## Get Involved
+
+The **Systems Thinking on Apple Silicon** *curriculum* has a long arc.
+
+If you are interested, want to introduce yourself or touch base with other, make post [here](https://github.com/Mercurial-Hermes/systems-thinking-on-apple-silicon/discussions/categories/general).
+
+If have installed Dojo and have any questions or need some help, post [here](https://github.com/Mercurial-Hermes/systems-thinking-on-apple-silicon/discussions/categories/get-help)
+
+If you are new to systems programming in general and need to clarify a concept, ask [here](https://github.com/Mercurial-Hermes/systems-thinking-on-apple-silicon/discussions/categories/q-a)
