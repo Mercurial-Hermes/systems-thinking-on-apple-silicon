@@ -4,27 +4,29 @@ title: Install Dojo (macOS)
 permalink: /install-dojo/
 ---
 
-This page covers installation of the Dojo macOS package when a signed `.pkg` is provided.
+Dojo is distributed as a standard macOS installer package (`.pkg`), signed and notarized using Apple’s Developer ID program.
+This allows Dojo to be installed and updated using the system installer, without requiring the App Store.
 
-## Prerequisites
+## Download
 
-- macOS on Apple Silicon
-- A downloaded, signed Dojo `.pkg` from the official distribution channel
+[Download Dojo for macOS (.pkg)](https://github.com/Mercurial-Hermes/dojo/releases/latest/download/Dojo.pkg)
 
-## Install (GUI)
+macOS 13+ (Apple Silicon and Intel)  
+Signed and notarized  
+No App Store required
 
-1. Double-click the `.pkg` file.
-2. Follow the macOS Installer steps.
-3. Launch Dojo from `/Applications`.
+## Install steps
 
-## Install (Terminal)
+- Download `Dojo.pkg`.
+- Double-click to open.
+- Follow the installer prompts.
+- Launch Dojo from `/Applications`.
 
-Use the system installer with an absolute path to the package:
+## Security note
 
-```sh
-sudo installer -pkg /path/to/Dojo.pkg -target /
-```
+Dojo is signed and notarized by Apple. If macOS shows a security prompt, it is confirming the developer identity before installation.
 
-## Verification
+## What Dojo installs
 
-When a published checksum or signature is provided with a release, verify it before installation.
+The installer places Dojo in `/Applications` and does not modify system files.
+Toolchain setup and runtime dependencies are handled by Dojo itself when needed.
