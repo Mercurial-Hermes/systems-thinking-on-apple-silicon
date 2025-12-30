@@ -12,10 +12,10 @@ It provides stable documentation, orientation, and distribution links.
 - A set of stable artifacts consumed by external tools.
 - A long-lived interface that favors conservative change.
 
-For a fuller statement of intent, see the repository README and preface.
+For a fuller statement of intent:
 
-- README: `/README.md`
-- Preface: `/PREFACE.md`
+- [System Thinking on Apple Silicon](https://raw.githubusercontent.com/Mercurial-Hermes/systems-thinking-on-apple-silicon/refs/heads/main/README.md)
+- [Curriculum](https://raw.githubusercontent.com/Mercurial-Hermes/systems-thinking-on-apple-silicon/refs/heads/main/PREFACE.md)
 
 ## Sections
 
