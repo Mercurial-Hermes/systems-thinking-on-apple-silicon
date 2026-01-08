@@ -9,7 +9,7 @@ This allows Dojo to be installed and updated using the system installer, without
 
 ## Download
 
-[Download Dojo for macOS (.pkg)](https://github.com/Mercurial-Hermes/dojo/releases/latest/download/Dojo.pkg)
+[Download Dojo for macOS (.pkg)](https://dojo-downloads.elusivenode.workers.dev/dl/latest/Dojo.pkg)
 
 macOS 13+ (Apple Silicon and Intel)  
 Signed and notarized  
